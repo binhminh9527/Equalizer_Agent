@@ -1,0 +1,3 @@
+[2025-12-12T10:37:51.416658] invoked with gains='bass'
+[2025-12-12T10:37:51.450413] ✓ Gains set successfully. Server response: OK
+Sent gains: [4, 3, 2, 1, 0, 0, -1, -2, -3, -4]

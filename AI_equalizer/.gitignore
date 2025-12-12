@@ -1,0 +1,21 @@
+.vscode/
+build/
+*.user
+*.autosave
+*.pro.user.*
+CMakeLists.txt.user
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.o
+*.so
+*.a
+moc_*
+ui_*
+qrc_*
+AI_equalizer
+service.log
+
+# Go service
+gemini-service/gemini-service
