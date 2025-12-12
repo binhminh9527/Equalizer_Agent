@@ -1,0 +1,1 @@
+lsof -i :5555 | grep -v COMMAND | awk '{print $2}' | xargs kill -9 2>/dev/null; sleep 1 && echo "Port cleared"

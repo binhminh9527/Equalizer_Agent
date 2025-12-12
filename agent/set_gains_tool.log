@@ -1,3 +1,48 @@
 [2025-12-12T10:37:51.416658] invoked with gains='bass'
 [2025-12-12T10:37:51.450413] ✓ Gains set successfully. Server response: OK
 Sent gains: [4, 3, 2, 1, 0, 0, -1, -2, -3, -4]
+[2025-12-12T14:27:32.630868] invoked with gains='bass'
+[2025-12-12T14:27:32.667698] ✓ Gains set successfully. Server response: OK
+Sent gains: [4, 3, 2, 1, 0, 0, -1, -2, -3, -4]
+[2025-12-12T14:27:45.490172] invoked with gains='0 0 0 0 2 4 4 2 0 0'
+[2025-12-12T14:27:45.526654] ✓ Gains set successfully. Server response: OK
+Sent gains: [0.0, 0.0, 0.0, 0.0, 2.0, 4.0, 4.0, 2.0, 0.0, 0.0]
+[2025-12-12T14:28:09.936756] invoked with gains='vshape'
+[2025-12-12T14:28:09.976098] ✓ Gains set successfully. Server response: OK
+Sent gains: [3, 2, 1, 0, -1, -2, 1, 2, 3, 4]
+[2025-12-12T14:30:34.726316] invoked with gains='bass'
+[2025-12-12T14:30:34.765954] ✓ Gains set successfully. Server response: OK
+Sent gains: [4, 3, 2, 1, 0, 0, -1, -2, -3, -4]
+[2025-12-12T14:30:45.796080] invoked with gains='0 0 0 0 2 4 4 2 0 0'
+[2025-12-12T14:30:45.838538] ✓ Gains set successfully. Server response: OK
+Sent gains: [0.0, 0.0, 0.0, 0.0, 2.0, 4.0, 4.0, 2.0, 0.0, 0.0]
+[2025-12-12T14:30:59.313277] invoked with gains='0 1 2 3 4 5 4 3 2 1'
+[2025-12-12T14:30:59.347182] ✓ Gains set successfully. Server response: OK
+Sent gains: [0.0, 1.0, 2.0, 3.0, 4.0, 5.0, 4.0, 3.0, 2.0, 1.0]
+[2025-12-12T14:31:19.988720] invoked with gains='-2 -1 1 3 5 8 5 3 1 -2'
+[2025-12-12T14:31:20.026386] ✓ Gains set successfully. Server response: OK
+Sent gains: [-2.0, -1.0, 1.0, 3.0, 5.0, 8.0, 5.0, 3.0, 1.0, -2.0]
+[2025-12-12T14:31:39.559066] invoked with gains='10 8 6 3 0 -2 -4 -6 -8 -10'
+[2025-12-12T14:31:39.591708] ✓ Gains set successfully. Server response: OK
+Sent gains: [10.0, 8.0, 6.0, 3.0, 0.0, -2.0, -4.0, -6.0, -8.0, -10.0]
+[2025-12-12T14:32:11.982550] invoked with gains='flat'
+[2025-12-12T14:32:12.019662] ✓ Gains set successfully. Server response: OK
+Sent gains: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2025-12-12T14:32:33.753824] invoked with gains='12 10 8 5 0 -3 -6 -9 -12 -15'
+[2025-12-12T14:32:33.791284] ✓ Gains set successfully. Server response: OK
+Sent gains: [12.0, 10.0, 8.0, 5.0, 0.0, -3.0, -6.0, -9.0, -12.0, -15.0]
+[2025-12-12T14:33:34.100238] invoked with gains='flat'
+[2025-12-12T14:33:34.139202] ✓ Gains set successfully. Server response: OK
+Sent gains: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+[2025-12-12T14:33:49.268357] invoked with gains='-15 -10 -5 0 5 10 5 0 -5 -10'
+[2025-12-12T14:33:49.300459] ✓ Gains set successfully. Server response: OK
+Sent gains: [-15.0, -10.0, -5.0, 0.0, 5.0, 10.0, 5.0, 0.0, -5.0, -10.0]
+[2025-12-12T14:34:06.617063] invoked with gains='vshape'
+[2025-12-12T14:34:06.655110] ✓ Gains set successfully. Server response: OK
+Sent gains: [3, 2, 1, 0, -1, -2, 1, 2, 3, 4]
+[2025-12-12T14:34:19.967107] invoked with gains='6 4 2 0 -3 -4 2 4 6 8'
+[2025-12-12T14:34:20.003349] ✓ Gains set successfully. Server response: OK
+Sent gains: [6.0, 4.0, 2.0, 0.0, -3.0, -4.0, 2.0, 4.0, 6.0, 8.0]
+[2025-12-12T14:34:35.119870] invoked with gains='8 6 4 0 -3 -4 2 4 6 8'
+[2025-12-12T14:34:35.156759] ✓ Gains set successfully. Server response: OK
+Sent gains: [8.0, 6.0, 4.0, 0.0, -3.0, -4.0, 2.0, 4.0, 6.0, 8.0]

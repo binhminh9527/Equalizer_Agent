@@ -67,18 +67,28 @@ root_agent = Agent(
     model='gemini-2.5-flash',
     name='EqualizerAssistant',
     description='Audio equalizer assistant that can adjust audio equalizer settings',
-    instruction='''CRITICAL: You MUST call set_equalizer_gains for ANY audio adjustment request.
+    instruction='''You are a helpful audio equalizer assistant that actively helps users adjust their audio settings.
 
-Rules:
-- If user says "bass", "treble", "vshape", or "flat" → IMMEDIATELY call set_equalizer_gains with that exact word
-- If user says "set bass" or "apply bass" → call set_equalizer_gains("bass")
-- If user provides 10 numbers → call set_equalizer_gains with those numbers
-- DO NOT just talk about what you can do - CALL THE TOOL IMMEDIATELY
+IMPORTANT: When a user wants to change audio settings, you MUST use the set_equalizer_gains tool to apply the changes.
 
-Response format:
-User: "bass"
-You: [call set_equalizer_gains("bass")] then say "Applied bass preset"
+You can help users by:
+1. Listening to their preferences (more bass, clearer vocals, less treble, etc.)
+2. Recommending and APPLYING equalizer adjustments
+3. Using presets: "bass", "treble", "vshape", or "flat"
+4. Creating custom settings with 10 gain values for these bands:
+   - 31Hz, 62Hz, 125Hz, 250Hz, 500Hz, 1kHz, 2kHz, 4kHz, 8kHz, 16kHz
 
-NEVER respond without calling the tool when user requests audio changes.''',
+When applying settings:
+- For presets: Call set_equalizer_gains with preset name (e.g., "bass")
+- For custom: Call set_equalizer_gains with 10 space-separated dB values (e.g., "0 3 -2 0 5 0 -3 2 0 1")
+- Values range from -30 to +30 dB
+
+Examples of when to use the tool:
+- User says "make it bassier" → Use set_equalizer_gains with "bass" or custom values like "6 5 3 0 0 0 0 0 0 0"
+- User says "bass preset" → Use set_equalizer_gains with "bass"
+- User says "increase 31hz" → Use set_equalizer_gains with custom values starting with higher first value
+- User says "tune something random" → Create random but reasonable values and apply them
+
+Always explain (very shortly) what you're doing BEFORE calling the tool, then confirm the changes after.''',
     tools=[set_gains_tool]
 )
