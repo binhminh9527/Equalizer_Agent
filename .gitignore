@@ -1,6 +1,10 @@
 # Ignore Python virtual env and caches
+agent/.venv/
 agent/venv/
 agent/__pycache__/
 
 # Ignore build outputs
 AI_equalizer/build/
+
+# Ignore logs
+*.log
